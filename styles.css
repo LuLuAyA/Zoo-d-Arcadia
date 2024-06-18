@@ -88,6 +88,7 @@ nav.menu {
 h1 {
     text-align: center;
     margin-top: 75px;
+    font-size: 40px;
 }
 
 .identite{
@@ -139,16 +140,46 @@ h1 {
     width: 150px;
 }
 
-.histoire {
+h2.histoire {
     position: absolute;
     z-index: 2;
     margin-top: 400px;
-    margin-left: 952px;
+    margin-left: 820px;
     font-weight: bold;
+    font-size: 40px;
 }
 
 .histoire-du-zoo {
     margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logo-valeurs {
+    z-index: 1;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 102px;
+    height: 150px;
+    width: 150px;
+}
+.baniere-valeurs{
+    margin-top: 100px;
+    position: relative;
+    width: 1905px;
+    height: 500px;
+}
+
+h2.nos-valeurs {
+    position: absolute;
+    z-index: 2;
+    margin-top: 380px;
+    margin-left: 850px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+p.identite {
     text-align: center;
     font-weight: bold;
 }
