@@ -1,0 +1,154 @@
+html {
+    background-color: #fbe5c0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.container-hompage {
+    background-color: brown;
+    height: 500px;
+    width: auto;
+}
+.baniere-homepage {
+    position: relative;
+    width: 1905px;
+    height: 500px;
+}    
+
+.logo {
+    z-index: 1;
+    position: absolute;
+    margin-left: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+li {
+    position: relative;
+    list-style: none;
+    display:inline-block;
+    width: 200px;
+   
+}
+
+nav.menu {
+    position: absolute;
+    background-color: #343907;
+    z-index: 1; 
+    width: 1905px;
+    height: 35px;
+    display: block;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.btn-menu {
+    background-color:#fbe5c0;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-inline: 30px;
+    height: 15px;
+    width: 150px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  .btn-menu-recherche {
+    background-color:white;
+    border-radius: 10px;
+    padding: 5px 30px;
+    text-align: start;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-inline: 30px;
+    height: 15px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+.presentation {
+    z-index: 2;
+    float: right;
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    font-weight: bolder;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 75px;
+}
+
+.identite{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 150px 0px 150px;
+    cursor: pointer;
+} 
+
+.icon {
+    text-align: center;
+    font-weight: bold;
+}
+
+.nos-valeurs {
+    height: 200px;
+    width: 200px;
+}
+
+.annimaux {
+    height: 200px;
+    width: 200px;
+}
+ 
+.Nos-action-pour-la-nature {
+    height: 200px;
+    width: 200px;
+}
+
+.Nos-éspaces {
+    height: 200px;
+    width: 200px;
+}
+  
+.baniere-histoire {
+    margin-top: 100px;
+    position: relative;
+    width: 1905px;
+    height: 500px;
+}
+
+.logo-histoire {
+    z-index: 1;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 101px;
+    height: 150px;
+    width: 150px;
+}
+
+.histoire {
+    position: absolute;
+    z-index: 2;
+    margin-top: 400px;
+    margin-left: 952px;
+    font-weight: bold;
+}
+
+.histoire-du-zoo {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+}
