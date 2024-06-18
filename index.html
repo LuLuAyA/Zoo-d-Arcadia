@@ -59,7 +59,40 @@
         Ancré dans la tradition légendaire de la forêt de Brocéliande, le Parc Zoologique d'Arcadia poursuit sa mission de préservation de la biodiversité, tout en offrant une expérience magique et inoubliable à ses visiteurs.
         </p>
     </div>
-   <!--carousselle histoire-->
+    <div id="caroussel">
+        <div id="container">
+            <img src="bouton.png" class="bouton" id="d" />
+            <img src="bouton.png" class="bouton" id="g" /> 
+        </div>
+    </div>
+    <script>
+        document.body.onload=fonction(){
+            nbr=4;
+            p=0;
+            container=document.getElementById("container");
+            container=document.getElementById("g");
+            container=document.getElementById("d");
+            container.style.width=(800*nbr)+"px";
+            for=(i=1;i=nbr;i++);{
+                div=document.createElement("div");
+                div.className="photo";
+                div.style.backgroundImage="url('images/im"+i+".jpeg')";
+                container.appendChild(div);
+            }
+        }
+        g.onclick=fonction(){
+            if(p>-nbr+1)
+                p--;
+            container.style.transform="translate=("+p*800+"px)";
+            container.style.transition="all = 0.5s ease";
+        }
+        d.onclick=fonction(){
+            if(p<0)
+                p++;
+            container.style.transform="translate=("+p*800+"px)";
+            container.style.transition="all = 0.5s ease";
+        }
+    </script>
    <div class="valeurs">
         <img class="logo-valeurs" src="logo\logo.jpg" alt="logo du site">
             <h2 class="nos-valeurs">Nos valeurs</h2>
