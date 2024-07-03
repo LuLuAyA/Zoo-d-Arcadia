@@ -1,0 +1,61 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex d997893..e69de29 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -1,114 +0,0 @@[m
+[31m-<!DOCTYPE html>[m
+[31m-<html lang="fr">[m
+[31m-<head>[m
+[31m-    <meta charset="UTF-8">[m
+[31m-    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[31m-    <link rel="stylesheet" href="styles.css">[m
+[31m-    <link rel="preconnect" href="https://fonts.googleapis.com">[m
+[31m-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>[m
+[31m-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">[m
+[31m-    <title>Zoo d'Arcadia</title>[m
+[31m-</head>[m
+[31m-<body>[m
+[31m-    <nav class="menu">[m
+[31m-        <ul>[m
+[31m-            <li class="btn-menu">Notre parc</li>[m
+[31m-            <li class="btn-menu">Les annimaux</li>[m
+[31m-            <li class="btn-menu">Info pratique</li>[m
+[31m-            <li class="btn-menu">Billetterie</li>[m
+[31m-            <li class="btn-menu">Services</li>[m
+[31m-            <li class="btn-menu-recherche">Recherche :</li>[m
+[31m-        </ul>[m
+[31m-    </nav>[m
+[31m-        <div class="container-homepage">[m
+[31m-            <img class="logo" src="logo\logo.jpg" alt="logo du site">[m
+[31m-                <p class="presentation">Bienvenue au Zoo d’Arcadia[m
+[31m-            En plein cœur de la foret Brocéliande en Bretagne depuis 1960 ,<br> plus de 1900 animaux ont trouvé a Arcadia un cadre naturel exceptionnel, consacré à la protection <br>[m
+[31m-             des espèces menacées. Creusés dans la roche, nos tunnels vous feront passer d’un monde à l’autre ! <br> Découvrez sur ce site des contenus sur les espèces du parc, nos informations pratiques et d'accès, <br> ainsi qu'un service de billetterie en ligne.[m
+[31m-            </p>[m
+[31m-            <img class="baniere-homepage" src="Baniere ECF\Baniere titre.png" alt="baniere homepage">[m
+[31m-            <!--actualité du zoo-->[m
+[31m-        </div>   [m
+[31m-    <h1>Notre identité</h1>[m
+[31m-    <div class="identite">[m
+[31m-        <div><img class="nos-valeurs" src="Photos ECF\oiseau ecf\pexels-8moments-1181181.jpg" alt="Flament rose">[m
+[31m-            <p class="icon">Nos valeurs</p>[m
+[31m-        </div>[m
+[31m-         <div><img class="annimaux" src="Photos ECF\Panda roux\pexels-adi-k-182036-15705350.jpg" alt="Panda roux">[m
+[31m-            <p class="icon">1900 annimaux</p>[m
+[31m-        </div>[m
+[31m-        <div><img class="Nos-action-pour-la-nature" src="Photos ECF\Papillon\pexels-emel-ukav-55235060-16854690.jpg" alt="Papillon">[m
+[31m-            <p class="icon">Nos action pour la nature</p>[m
+[31m-        </div>[m
+[31m-        <div><img class="Nos-éspaces" src="Photos ECF\nos valeurs-1.jpg" alt="Enclos a Rhinocéroce">[m
+[31m-            <p class="icon">Nos éspaces</p> [m
+[31m-        </div>   [m
+[31m-    </div>[m
+[31m-    <div>[m
+[31m-        <img class="logo-histoire" src="logo\logo.jpg" alt="logo du site">[m
+[31m-        <h2 class="histoire">Histoire du zoo</h2>[m
+[31m-        <img class="baniere-histoire" src="Baniere ECF\Banière nos éspece.png" alt="Deux Loup blanc">[m
+[31m-    </div>[m
+[31m-    <div class="histoire-du-zoo">[m
+[31m-        <p>[m
+[31m-            Voici l'histoire de la création du Parc Zoologique d'Arcadia, situé au cœur de la forêt de Brocéliande en Bretagne :[m
+[31m-        En 1960, un groupe de passionnés de la nature et de la préservation de la faune sauvage a décidé de fonder un parc zoologique unique en son genre, niché au cœur de la légendaire forêt de Brocéliande. Fascinés par la beauté et la magie de cette région bretonne, ils ont choisi d'implanter leur projet dans cet écrin forestier verdoyant, à l'abri des regards.[m
+[31m-        Le Parc Zoologique d'Arcadia est né de leur volonté de créer un sanctuaire pour les espèc
